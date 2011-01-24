@@ -16,10 +16,10 @@ begin
     gem.rubyforge_project = "amqp-utils"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
 
-    gem.add_dependency('amqp', '~> 0.6.7')
-    gem.add_dependency('trollop', '~> 1.10.2')
-    gem.add_dependency('facets', '~> 2.7.0')
-    gem.add_dependency('clio', '~> 0.3.0')
+    gem.add_dependency('amqp', '>= 0.6.7')
+    gem.add_dependency('trollop', '>= 1.10.2')
+    gem.add_dependency('facets', '>= 2.7.0')
+    gem.add_dependency('clio', '>= 0.3.0')
     gem.add_dependency('json', '>= 1.1.6')
   end
   Jeweler::GemcutterTasks.new
