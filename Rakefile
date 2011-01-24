@@ -20,7 +20,7 @@ begin
     gem.add_dependency('trollop', '~> 1.10.2')
     gem.add_dependency('facets', '~> 2.7.0')
     gem.add_dependency('clio', '~> 0.3.0')
-    gem.add_dependency('json', '~> 1.1.6')
+    gem.add_dependency('json', '>= 1.1.6')
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
